@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "tabuada-app",
+    "name": "Tabuada App",
     "slug": "tabuada-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "dev_victor.tabuada_app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b957bdb5-dea5-4717-a11f-965a7bbda02b"
+      }
     }
   }
 }
